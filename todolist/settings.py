@@ -13,12 +13,12 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-ENGINE = os.environ.get("ENGINE", "mysql.connector.django")
-NAME = os.environ.get("NAME", "app_db")
-USER = os.environ.get("USER", "app_user")
-PASSWORD = os.environ.get("PASSWORD", "1234")
-HOST = os.environ.get("HOST", "mysql")
-PORT = os.environ.get("PORT", "")
+ENGINE = os.environ.get("TODO_ENGINE", "mysql.connector.django")
+NAME = os.environ.get("TODO_NAME", "app_db")
+USER = os.environ.get("TODO_USER", "app_user")
+PASSWORD = os.environ.get("TODO_PASSWORD", "1234")
+HOST = os.environ.get("TODO_HOST", "mysql")
+PORT = os.environ.get("TODO_PORT", "")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
